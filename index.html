@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHALA Objektservice – Zuverlässig. Pünktlich. Professionell.</title>
+  <meta name="description" content="SHALA Objektservice – Ihr zuverlässiger Partner für Gebäudereinigung, Gartenservice, Entrümpelung und Winterservice in Mönchengladbach & Umgebung." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="logo-wrap" aria-label="Zur Startseite">
+        <img src="logo.png" alt="SHALA Objektservice Logo" class="logo-img" />
+      </a>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#hero" class="nav-link">Start</a>
+        <a href="#services" class="nav-link">Leistungen</a>
+        <a href="#contact" class="nav-link">Kontakt</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-headline">
+        <span class="hero-line">ZUVERLÄSSIG.</span>
+        <span class="hero-line">PÜNKTLICH.</span>
+        <span class="hero-line">PROFESSIONELL.</span>
+      </h1>
+      <p class="hero-sub">Ihr starker Partner für Objekt- und Gebäudeservice<br>in Mönchengladbach & Umgebung.</p>
+      <a href="#contact" class="btn-primary" id="hero-cta">Jetzt Kontakt aufnehmen</a>
+    </div>
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== COMING SOON BANNER ===== -->
+  <section class="coming-soon-banner" id="coming-soon">
+    <div class="cs-inner">
+      <div class="cs-icon" aria-hidden="true">🚧</div>
+      <h2 class="cs-title">WEBSITE IM AUFBAU</h2>
+      <p class="cs-text">
+        Wir arbeiten bereits an weiteren Inhalten für Sie.<br>
+        <strong>Viele weitere Informationen, Leistungen und Details werden in Kürze hinzugefügt!</strong>
+      </p>
+      <div class="cs-badges">
+        <span class="cs-badge">Mehr Leistungen</span>
+        <span class="cs-badge">Galerie & Referenzen</span>
+        <span class="cs-badge">Preisanfragen</span>
+        <span class="cs-badge">Über uns</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services" id="services">
+    <div class="section-inner">
+      <h2 class="section-title">Unsere Leistungen</h2>
+      <p class="section-sub">Ein erster Überblick – weitere Angebote folgen in Kürze.</p>
+
+      <div class="services-grid">
+
+        <div class="service-card" id="svc-garden">
+          <div class="svc-icon">🌿</div>
+          <h3 class="svc-name">Garten Service</h3>
+          <p class="svc-desc">Professionelle Grünpflege und Rasenschnitt</p>
+        </div>
+
+        <div class="service-card" id="svc-entruempelung">
+          <div class="svc-icon">🗑️</div>
+          <h3 class="svc-name">Entrümpelung</h3>
+          <p class="svc-desc">Schnelle und saubere Objekträumung</p>
+        </div>
+
+        <div class="service-card" id="svc-gebaude">
+          <div class="svc-icon">🏢</div>
+          <h3 class="svc-name">Gebäudereinigung</h3>
+          <p class="svc-desc">Zuverlässige Sauberkeit für Gebäude und Büros</p>
+        </div>
+
+        <div class="service-card" id="svc-terrasse">
+          <div class="svc-icon">🧹</div>
+          <h3 class="svc-name">Terrassenreinigung</h3>
+          <p class="svc-desc">Gründliche Säuberung von Außenflächen</p>
+        </div>
+
+        <div class="service-card" id="svc-winter">
+          <div class="svc-icon">❄️</div>
+          <h3 class="svc-name">Winterservice</h3>
+          <p class="svc-desc">Zuverlässiger Schneeräumdienst für freie Wege</p>
+        </div>
+
+        <div class="service-card service-card--more" id="svc-more">
+          <div class="svc-icon">➕</div>
+          <h3 class="svc-name">Und vieles mehr…</h3>
+          <p class="svc-desc">Weitere Leistungen werden bald ergänzt</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <footer class="contact" id="contact">
+    <div class="contact-grid">
+
+      <div class="contact-col contact-col--left">
+        <p class="contact-cta-label">Ruf uns an für den schnellen Kontakt</p>
+        <a href="tel:017641898620" class="contact-phone" id="contact-phone">
+          <span class="contact-icon">📞</span> 0176 41898620
+        </a>
+      </div>
+
+      <div class="contact-col contact-col--mid">
+        <a href="https://www.sa-objektservice.com" target="_blank" rel="noopener noreferrer" class="contact-link" id="contact-web">
+          <span class="contact-icon">🌐</span> www.sa-objektservice.com
+        </a>
+        <a href="mailto:info@sa-objektservice.com" class="contact-link" id="contact-email">
+          <span class="contact-icon">✉️</span> info@sa-objektservice.com
+        </a>
+        <p class="contact-link">
+          <span class="contact-icon">📍</span> Mönchengladbach & Umgebung
+        </p>
+      </div>
+
+      <div class="contact-col contact-col--right">
+        <p class="contact-follow">Folgt uns</p>
+        <div class="social-links">
+          <a href="https://instagram.com/sa.objektservice" target="_blank" rel="noopener noreferrer" class="social-btn" id="social-instagram" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="https://tiktok.com/@sa.objektservice" target="_blank" rel="noopener noreferrer" class="social-btn" id="social-tiktok" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.79a8.18 8.18 0 004.79 1.52V6.9a4.85 4.85 0 01-1.02-.21z"/></svg>
+          </a>
+        </div>
+        <p class="social-handle">@sa.objektservice</p>
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 SHALA Objektservice – Alle Rechte vorbehalten. · <a href="impressum.html" class="footer-link">Impressum</a> · <a href="javascript:void(0)" id="cookie-settings-btn" class="footer-link">Cookie-Einstellungen</a></p>
+    </div>
+  </footer>
+
+  <!-- ===== COOKIE BANNER ===== -->
+  <div class="cookie-banner" id="cookie-banner" role="dialog" aria-modal="true" aria-labelledby="cookie-title" style="display: none;">
+    <div class="cookie-card">
+      <div class="cookie-header">
+        <span class="cookie-icon" aria-hidden="true">🍪</span>
+        <h3 id="cookie-title" class="cookie-title">Cookie-Einstellungen</h3>
+      </div>
+      <p class="cookie-desc">
+        Wir nutzen Cookies auf unserer Website. Einige sind für den Betrieb zwingend notwendig, während andere uns helfen, diese Website zu optimieren und Ihnen den besten Service zu bieten.
+      </p>
+
+      <!-- Erweiterte Einstellungen -->
+      <div class="cookie-details" id="cookie-details" style="display: none;">
+        <div class="cookie-category">
+          <div class="cookie-cat-text">
+            <strong>Essenziell (Notwendig)</strong>
+            <span>Grundlegende Funktionen der Website wie Navigation und Sicherheit. Nicht abwählbar.</span>
+          </div>
+          <span class="cookie-badge">Immer aktiv</span>
+        </div>
+
+        <div class="cookie-category">
+          <div class="cookie-cat-text">
+            <label for="cookie-opt-functional"><strong>Funktional</strong></label>
+            <span>Erweiterte Komfortfunktionen, z.&nbsp;B. Speichern Ihrer Formulardaten oder Kartenansichten.</span>
+          </div>
+          <label class="cookie-switch">
+            <input type="checkbox" id="cookie-opt-functional" checked>
+            <span class="cookie-slider"></span>
+          </label>
+        </div>
+
+        <div class="cookie-category">
+          <div class="cookie-cat-text">
+            <label for="cookie-opt-analytics"><strong>Statistik & Marketing</strong></label>
+            <span>Anonyme Auswertung der Website-Nutzung zur stetigen Verbesserung unseres Angebots.</span>
+          </div>
+          <label class="cookie-switch">
+            <input type="checkbox" id="cookie-opt-analytics">
+            <span class="cookie-slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <!-- Button Leiste -->
+      <div class="cookie-buttons">
+        <button type="button" class="cookie-btn cookie-btn--custom" id="cookie-btn-toggle">Einstellungen</button>
+        <button type="button" class="cookie-btn cookie-btn--reject" id="cookie-btn-reject">Nur essenzielle</button>
+        <button type="button" class="cookie-btn cookie-btn--accept" id="cookie-btn-accept">Alle akzeptieren</button>
+        <button type="button" class="cookie-btn cookie-btn--save" id="cookie-btn-save" style="display: none;">Auswahl speichern</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
